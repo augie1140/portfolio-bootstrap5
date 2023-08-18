@@ -4,36 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio | Augie Aristito</title>
+
+    <!-- css bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #2A3132;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Augie</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
+          
           </ul>
         </div>
       </div>
     </nav>
     <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/me.jpg" alt="its me!" width="200" class="rounded-circle">
+      <h1 class="display-4 text-white">Augie Aristito Sudiarto</h1>
+      <p class="lead text-white">Network Engineer | Cyber Security</p>
+     
+    </section>
+    <!-- End Jumbotron -->
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
   </body>
 </html>
